@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./styles/main.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
 </head>
+
 <body>
-<header>
-  <img src="./images/logo.svg" alt="logo" class="logo">
-  <img src="./images/icon-menu.svg" alt="menu icon">
-  <img src="./images/image-hero-mobile.png" alt="Hombre con ordenador">
-Features
-  Company
-  Careers
-  About
 
-  Login
-  Register
-</header>
-<main>
-<h1>Make remote work</h1> 
-<p> Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.</p>
+  <!-- header -->
+  <header>
+    <nav class="menu-nav">
+      <ul class="menu-nav-list">
+        <div class="left">
+          <li><img src="./images/logo.svg" alt="logo" class="logo"></li>
+          <li class="buttons">Features <img src="./images/icon-arrow-down.svg" alt="Arrow Down"></li>
+          <li class="buttons">Company <img src="./images/icon-arrow-down.svg" alt="Arrow Down"></li>
+          <li class="buttons">Careers </li>
+          <li class="buttons">About</li>
+        </div>
+        <div class="right">
+          <li><button class="login-button">Login</button></li>
+          <li><button class="register-button">Register</button></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
 
-<button>
-   Learn more
-</button>
+  <main>
+  <div class="wrapper">
+    <div class="wrapper-left">
+      <h1 class="title">Make remote work</h1>
+      <p class="paragraph">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+        productivity soar.</p>
+      <button class="wrapper-button">Learn more</button>
+      <footer class="footer-icons">
+        <img src="./images/client-databiz.svg" alt="icon databiz">
+        <img src="./images/client-audiophile.svg" alt="icon audiophile">
+        <img src="./images/client-meet.svg" alt="icon meet">
+        <img src="./images/client-maker.svg" alt="icon maker">
+      </footer>
+
+    </div>
+ 
+  <div class="wrapper-right">
+    <img src="./images/image-hero-desktop.png" alt="" class="main-image">
+  </div>
+ </div>
+
 </main>
-<footer>
-
-
-</footer>
-  <img src="./images/client-databiz.svg" alt="logo databiz">
-  <img src="./images/client-audiophile.svg" alt="logo audiophile">
-  <img src="./images/client-meet.svg" alt="logo meet">
-  <img src="./images/client-maker.svg" alt="logo maker">
 </body>
+
 </html>
