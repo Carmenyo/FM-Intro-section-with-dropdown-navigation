@@ -52,10 +52,10 @@ img {
   align-items: center;
   gap: 0.5rem;
   position: relative;
-  user-select: none;
+
 }
 .nav-links li:hover {
-  color: var(--Almost-Black);
+  font-weight: bolder;
 }
 .mobile-menu-button {
   display: none;
@@ -94,8 +94,6 @@ img {
   display: flex !important;
 }
 
-
-/* Buttons */
 .outlined-btn,
 .transparent-btn {
   padding: 1rem 2rem;
@@ -120,7 +118,6 @@ img {
 }
 
 
-/* Main styles */
 main {
   display: flex;
   align-items: center;
@@ -175,6 +172,10 @@ main {
 @media screen and (max-width: 800px) {
   .nav-container {
     padding-inline: 1rem;
+  }
+
+  img {
+    max-width: 100%;
   }
   .mobile-menu-button {
     display: flex;
@@ -239,19 +240,25 @@ main {
     flex-direction: column-reverse;
   }
   .main-left {
+    margin-top: -8rem;
     align-items: center;
     text-align: center;
-    gap: 2rem;
   }
-  .main-heading {
+  .main-title {
     font-size: 2.2rem;
   }
-  .main-heading br {
+  .main-title br {
     display: none;
   }
+  .main-paragraph{
+    margin-top: 1rem;
+  }
   .logos {
-    width: 100%;
-    padding-inline: 1rem;
-    flex-wrap: wrap;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+    
   }
 }
