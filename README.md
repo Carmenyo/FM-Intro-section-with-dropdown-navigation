@@ -12,9 +12,9 @@ This is a project based on the Frontend Mentor challenge titled "Dropdown Naviga
 
 ## Technologies Used 🛠️
 
-- HTML5: Markup language for structuring the webpage content.
-- CSS3: Styling language for designing and presenting the user interface.
-- JavaScript: Programming language for interactive elements and behavior.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> HTML5: Markup language for structuring the web page.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> CSS3: Styling language for design and presentation.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> JavaScript: Programming language for interactivity and logic.
 
 ## User Interaction and Design
 
